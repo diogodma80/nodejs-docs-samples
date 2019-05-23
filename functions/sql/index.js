@@ -32,10 +32,10 @@ const pg = require('pg');
  * TODO(developer): specify SQL connection details
  */
 const connectionName =
-  process.env.INSTANCE_CONNECTION_NAME || '<YOUR INSTANCE CONNECTION NAME>';
-const dbUser = process.env.SQL_USER || '<YOUR DB USER>';
-const dbPassword = process.env.SQL_PASSWORD || '<YOUR DB PASSWORD>';
-const dbName = process.env.SQL_NAME || '<YOUR DB NAME>';
+  process.env.INSTANCE_CONNECTION_NAME || 'dalmeida-dev:us-central1:case19420972';
+const dbUser = process.env.SQL_USER || 'user';
+const dbPassword = process.env.SQL_PASSWORD || '1234';
+const dbName = process.env.SQL_NAME || 'database';
 
 // [END functions_sql_postgres]
 // [END functions_sql_mysql]
